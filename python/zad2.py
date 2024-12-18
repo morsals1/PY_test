@@ -1,0 +1,5 @@
+numbers = input()
+if(int(numbers) > 0): print("положительное число")
+elif(int(numbers) < 0): print("отрицательное число")
+elif(int(numbers) == 0): print("равно нулю")
+else: print("не корректный ввод")
